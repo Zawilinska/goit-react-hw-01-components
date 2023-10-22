@@ -1,0 +1,37 @@
+.table {
+  width: 800px;
+  text-align: center;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 10px 8px 24px 0px rgba(0, 0, 0, 0.28);
+}
+.tableHead {
+  background-color: rgba(149, 0, 255, 0.838);
+  color: white;
+}
+.tableHeader {
+  padding: 10px 20px;
+}
+.tableHeader:not(:last-child) {
+  border-right: 1px solid rgb(12, 95, 147);
+}
+.header {
+  padding: 10px 20px;
+}
+.tableRow:nth-child(1n) {
+  background-color: rgba(40, 164, 247, 0.4);
+}
+.tableRow:nth-child(2n) {
+  background-color: rgba(138, 141, 143, 0.4);
+}
+.tableRow:hover {
+  background-color: rgb(203, 24, 143);
+  color: white;
+}
+.tableData {
+  padding: 10px;
+}
+.tableData:not(:last-child) {
+  border-right: 1px solid rgb(224, 224, 224);
+}

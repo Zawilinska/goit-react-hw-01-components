@@ -1,0 +1,34 @@
+.profile {
+  border: 9px solid black;
+  padding: 20px;
+  background-color: rgb(119, 71, 231);
+  font-family: Roboto;
+}
+.description {
+  text-align: center;
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border: 5px solid rgb(6, 13, 51);
+  border-radius: 50%;
+}
+.tag,
+.location {
+  font-style: italic;
+  opacity: 0.5;
+  margin: 10px 0;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+.label {
+  display: flex;
+  padding: 10px;
+}
